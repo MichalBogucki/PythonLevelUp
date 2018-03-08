@@ -9,7 +9,7 @@ ctr = 1
 
 @app.route('/')
 def hello():
-    return 'Hello!'
+    return 'Hello World!'
 
 
 @app.route('/request')
