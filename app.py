@@ -1,3 +1,4 @@
+#----------------------------
 from flask import Flask
 from flask import request
 from datetime import datetime
@@ -5,7 +6,7 @@ from uadetector.flask import UADetector
 
 app = Flask(__name__)
 UADetector(app)
-ctr = 1
+ctr = 0
 
 @app.route('/')
 def hello():
